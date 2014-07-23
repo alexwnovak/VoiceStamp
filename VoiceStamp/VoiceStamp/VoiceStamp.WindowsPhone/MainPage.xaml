@@ -4,11 +4,13 @@
     xmlns:local="using:VoiceStamp"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:controls="using:Windows.UI.Xaml.Controls"
     mc:Ignorable="d"
-    Background="CornflowerBlue">
+    Background="#222">
 
    <Grid>
-
+      <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+         <Button>Import</Button>
+         <Button>Camera</Button>
+      </StackPanel>
    </Grid>
 </Page>
