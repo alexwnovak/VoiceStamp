@@ -9,8 +9,8 @@
 
    <Grid>
       <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-         <Button>Import</Button>
-         <Button>Camera</Button>
+         <Button Click="ImportButton_Click">Import</Button>
+         <Button Click="CameraButton_Click">Camera</Button>
       </StackPanel>
    </Grid>
 </Page>

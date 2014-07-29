@@ -28,6 +28,8 @@
   <Capabilities>
     <Capability Name="internetClientServer" />
     <Capability Name="picturesLibrary" />
+    <Capability Name="videosLibrary" />
     <DeviceCapability Name="microphone" />
+     <DeviceCapability Name="webcam" />
   </Capabilities>
 </Package>
